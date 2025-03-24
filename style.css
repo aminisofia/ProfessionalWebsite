@@ -1,12 +1,40 @@
 body {
     display: flex;
-    background-color: aliceblue;
+    background-color: #2c2828;
     align-items: center;
     flex-direction: column;
+    margin: 0;
 }
 
-/*.mainBody {*/
-/*    background-color: #2b2929;*/
-/*    width: 60vw;*/
-/*    height: 60vw;*/
-/*}*/
+.mainBody {
+    background-color: whitesmoke;
+    width: 60vw;
+    height: 60vw;
+}
+
+
+@font-face {
+    font-family: 'chunky';
+    src: url('fonts/chunky.ttf') format('truetype');
+}
+
+h1,p {
+    text-align: center;
+    color: black;
+    font-family: "chunky";
+}
+
+h1 {
+    font-size: 3vw;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 0;
+    margin-top: 1vw;
+}
+
+p {
+    font-size: 1.5vw;
+    line-height: 1;
+    margin-top: 1vw;
+    font-style: italic;
+}
