@@ -1,0 +1,22 @@
+.experience {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.resume, .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid #3a3737;
+}
+
+.resume img {
+    max-width: 130%;
+    max-height: 130%;
+    object-fit: cover;
+}
