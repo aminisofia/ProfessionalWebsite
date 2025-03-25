@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
 .resume, .box{
     display: flex;
     justify-content: center;
@@ -27,4 +28,18 @@
     height: 100%;
     justify-content: center;
     align-items: center;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    margin-top: -30px;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: -50px;
+
 }

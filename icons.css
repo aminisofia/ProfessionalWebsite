@@ -1,0 +1,10 @@
+.icons {
+    display: flex;
+    justify-content: space-between; /* or space-around, flex-start, center */
+    gap: 20px; /* spacing between icons */
+}
+
+.linkedIn, .github, .instagram, .email {
+    width: 20px;
+    height: 20px;
+}
