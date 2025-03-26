@@ -29,6 +29,12 @@ body {
     margin-left: -420px;
 }
 
+.text-play {
+    text-align: left;
+    margin-left: -110px;
+    margin-bottom: 100px;
+}
+
 h3 {
     font-size:  15px;
     margin-top: -10px;
@@ -67,7 +73,6 @@ a:hover {
     margin-top: 50px;
     width: 620px;
     height: 390px;
-    /*border: black 1px;*/
     margin-bottom: 50px;
 }
 
@@ -75,6 +80,12 @@ a:hover {
     margin-top: 50px;
     width: 620px;
     height: 390px;
-    /*border: black 1px;*/
+    margin-bottom: 20px;
+}
+
+.play img {
+    margin-top: 50px;
+    width: 620px;
+    height: 350px;
     margin-bottom: 20px;
 }
