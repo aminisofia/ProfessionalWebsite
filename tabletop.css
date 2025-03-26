@@ -139,6 +139,11 @@ a:hover {
         margin: 10px;
     }
 
+    .header {
+        width: 100vw;
+        margin-top: -10px;
+    }
+
     .header img {
         width: 100%;
         height: auto;
@@ -163,3 +168,5 @@ a:hover {
 
     .table-wrapper {
         overflow-x: auto;
+    }
+}
