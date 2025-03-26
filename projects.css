@@ -1,11 +1,11 @@
 .projects {
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-bottom: 150px;
 }
 
-.website, .box, .resume, .tabletop{
+.website, .box, .resume, .tabletop, .htc{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,13 +17,13 @@
     border: 1px dashed rgba(0, 0, 0, 0.42);
 }
 
-.website img {
+.website img, .htc img {
     max-width: 130%;
     max-height: 130%;
     object-fit: cover;
 }
 
-.website a {
+.website a, .htc a {
     display: flex;
     width: 100%;
     height: 100%;
@@ -31,12 +31,13 @@
     align-items: center;
 }
 
-.website-container {
+.website-container, .htc-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/*text for tabletop*/
 .ptabletop {
     margin-top: -15px;
     font-weight: lighter;
@@ -51,3 +52,20 @@
     left: -5px;
     /*font-style: oblique;*/
 }
+
+/*text for HTC*/
+.phtc {
+    margin-top: -15px;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: -80px;
+}
+
+.h3htc {
+    font-size:  0.9em;
+    margin-top: -10px;
+    position: relative;
+    left: -2px;
+    /*font-style: oblique;*/
+}
+
