@@ -1,7 +1,7 @@
 .experience {
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .resume img {
@@ -40,4 +40,9 @@
     align-items: center;
 }
 
-
+.label {
+    margin-top: -15px;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: -100px;
+}

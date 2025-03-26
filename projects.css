@@ -14,7 +14,7 @@
     margin: 20px;
     overflow: hidden;
     border-radius: 15px;
-    border: 2px solid rgba(0, 0, 0, 0.42);
+    border: 1px dashed rgba(0, 0, 0, 0.42);
 }
 
 .website img {
@@ -37,11 +37,17 @@
     align-items: center;
 }
 
-.label {
+.ptabletop {
     margin-top: -15px;
     font-weight: lighter;
     font-size: 15px;
-    margin-left: -95px;
-
+    margin-left: -50px;
 }
 
+.h3tabletop {
+    font-size:  0.9em;
+    margin-top: -10px;
+    position: relative;
+    left: -5px;
+    /*font-style: oblique;*/
+}
