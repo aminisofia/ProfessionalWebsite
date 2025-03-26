@@ -1,6 +1,6 @@
 .icons {
     display: flex;
-    justify-content: space-between; /* or space-around, flex-start, center */
+    justify-content: center; /* or space-around, flex-start, center */
     gap: 20px; /* spacing between icons */
 }
 
