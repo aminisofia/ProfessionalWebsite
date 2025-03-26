@@ -1,16 +1,17 @@
+/* Default styles for PC */
 body {
     display: flex;
     background-color: #eee6fc;
     align-items: center;
     flex-direction: column;
-    margin: 0;
+    margin: 5vw;
+    margin-top: 0px;
 }
 
 .header img {
-    margin-top: 0px;
+    margin-top: 0;
     width: 616px;
     height: 320px;
-    /*border: black 1px;*/
     margin-bottom: 50px;
 }
 
@@ -36,26 +37,25 @@ body {
 }
 
 h3 {
-    font-size:  15px;
+    font-size: 15px;
     margin-top: -10px;
     text-align: left;
 }
 
 h2 {
-    font-size:  20px;
+    font-size: 20px;
     margin-top: 20px;
     text-align: left;
 }
 
 p {
-    font-size:  15px;
+    font-size: 15px;
     margin-bottom: 20px;
     text-align: left;
     font-style: italic;
 }
 
-
-/*hyperlink customization */
+/* Hyperlink customization */
 a {
     text-decoration: underline;
     background-image: linear-gradient(to right, #0051ff, #862ee5);
@@ -69,14 +69,14 @@ a:hover {
     color: #0051FFFF;
 }
 
-.cards img{
+.cards img {
     margin-top: 50px;
     width: 620px;
     height: 390px;
     margin-bottom: 20px;
 }
 
-.tokens img{
+.tokens img {
     margin-top: 50px;
     width: 620px;
     height: 390px;
@@ -89,3 +89,77 @@ a:hover {
     height: 350px;
     margin-bottom: 20px;
 }
+
+/* Responsive Table */
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+
+    .header img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .text-intro, .text-middle, .text-tokens, .text-play {
+        margin-left: 0;
+        padding: 0 15px;
+    }
+
+    h2, h3, p {
+        font-size: 16px;
+    }
+
+    .cards img, .tokens img, .play img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .table-wrapper {
+        overflow-x: auto;
