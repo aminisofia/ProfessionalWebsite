@@ -14,9 +14,19 @@ body {
     margin-bottom: 80px;
 }
 
-.text-container {
+.text-intro {
     text-align: left;
     margin-left: -30px;
+}
+
+.text-middle {
+    text-align: left;
+    margin-left: -110px;
+}
+
+.text-tokens {
+    text-align: left;
+    margin-left: -420px;
 }
 
 h3 {
@@ -58,5 +68,13 @@ a:hover {
     width: 620px;
     height: 390px;
     /*border: black 1px;*/
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+}
+
+.tokens img{
+    margin-top: 50px;
+    width: 620px;
+    height: 390px;
+    /*border: black 1px;*/
+    margin-bottom: 20px;
 }
