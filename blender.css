@@ -1,0 +1,180 @@
+/* Default styles for PC */
+body {
+    display: flex;
+    background-color: #eee6fc;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vw;
+    margin-top: 0px;
+}
+
+.first {
+    display: flex; /* Use flexbox to align items in a row */
+    justify-content: space-between; /* Add spacing between items */
+    align-items: center; /* Vertically align items */
+    width: 100%; /* Ensure the container takes full width */
+}
+
+.header, .text-intro {
+    flex: 1; /* Allow both elements to take equal space */
+}
+
+.header img {
+    margin-top: 0;
+    width: 800px;
+    height: 450px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.header h3 {
+    text-align: center;
+    margin-left: 80px;
+}
+
+.text-intro {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -200px;
+}
+
+h3 {
+    font-size: 15px;
+    margin-top: -10px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+/* Hyperlink customization */
+a {
+    text-decoration: underline;
+    background-image: linear-gradient(to right, #0051ff, #862ee5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #0051FFFF;
+}
+
+.donutVid {
+    height: 100%;
+    width: 100%;
+}
+
+.donutVid video {
+    margin-top: 20px;
+    width: 620px;
+    height: 390px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+}
+
+.donutVid h3 {
+    text-align: center;
+    margin-left: -250px;
+}
+
+.second {
+    display: flex; /* Use flexbox to align items in a row */
+    justify-content: space-between; /* Add spacing between items */
+    align-items: center; /* Vertically align items */
+    width: 100%; /* Ensure the container takes full width */
+}
+
+.house, .text-house {
+    flex: 1; /* Allow both elements to take equal space */
+}
+
+.house img {
+    margin-top: 50px;
+    width: 540px; /* Retain original width */
+    height: 540px; /* Retain original height */
+    margin-bottom: 20px;
+    margin-left: 300px;
+
+}
+
+.house h3 {
+    text-align: center;
+    margin-left: 300px;
+
+}
+
+.text-house {
+    text-align: left;
+    margin-left: 40px;
+    margin-top: -300px;
+    margin-bottom: 100px;
+}
+
+
+/* Add responsive styles for mobile devices */
+@media screen and (max-width: 768px) {
+    body {
+        margin: 2vw;
+        flex-direction: column;
+    }
+
+    .first, .second {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .header img {
+        width: 100%; /* Make the image responsive */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 0;
+    }
+
+    .header h3 {
+        margin-left: 0;
+        text-align: center; /* Center align text */
+    }
+
+    .text-intro, .text-house {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center; /* Center align text */
+    }
+
+    h3, h2, p {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .donutVid video {
+        width: 100%; /* Make the video responsive */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 0;
+    }
+
+    .donutVid h3 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .house img {
+        width: 100%; /* Make the image responsive */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 0;
+    }
+
+    .house h3 {
+        text-align: center;
+        margin-left: 0;
+    }
+}

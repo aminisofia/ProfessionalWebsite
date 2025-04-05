@@ -1,11 +1,11 @@
 .projects {
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     margin-bottom: 150px;
 }
 
-.website, .box, .resume, .tabletop, .htc{
+.website, .box, .resume, .tabletop, .htc, .blender{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,13 +17,13 @@
     border: 1px dashed rgba(0, 0, 0, 0.42);
 }
 
-.website img, .htc img {
+.website img, .htc img, .blender img {
     max-width: 130%;
     max-height: 130%;
     object-fit: cover;
 }
 
-.website a, .htc a {
+.website a, .htc a , .blender a{
     display: flex;
     width: 100%;
     height: 100%;
@@ -31,7 +31,7 @@
     align-items: center;
 }
 
-.website-container, .htc-container {
+.website-container, .htc-container, .blender-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,6 +66,22 @@
     margin-top: -10px;
     position: relative;
     left: -2px;
+    /*font-style: oblique;*/
+}
+
+/*text for Blender Projects!*/
+.pblend {
+    margin-top: -15px;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: -65px;
+}
+
+.h3blend {
+    font-size:  0.9em;
+    margin-top: -10px;
+    position: relative;
+    left: -85px;
     /*font-style: oblique;*/
 }
 
