@@ -1,0 +1,32 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem;
+    max-width: 550px;
+    border: 1px dashed rgba(0, 0, 0, 0.42);
+    border-radius: 15px;
+}
+
+.about img {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    margin-left: 0.5rem;
+    border-radius: 50%;
+}
+
+.description {
+    padding-left: -20px;
+}
+
+.description h4 {
+    font-size: 1rem;
+    margin: 0.50em 0;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5em;
+}

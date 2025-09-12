@@ -5,7 +5,7 @@
     margin-bottom: 150px;
 }
 
-.website, .box, .resume, .tabletop, .htc, .blender{
+.website, .box, .resume, .tabletop, .htc, .blender, .gos{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,13 +17,13 @@
     border: 1px dashed rgba(0, 0, 0, 0.42);
 }
 
-.website img, .htc img, .blender img {
+.website img, .htc img, .blender img, .gos img {
     max-width: 130%;
     max-height: 130%;
     object-fit: cover;
 }
 
-.website a, .htc a , .blender a{
+.website a, .htc a , .blender a, .gos a{
     display: flex;
     width: 100%;
     height: 100%;
@@ -31,7 +31,7 @@
     align-items: center;
 }
 
-.website-container, .htc-container, .blender-container {
+.website-container, .htc-container, .blender-container, .gos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,3 +85,17 @@
     /*font-style: oblique;*/
 }
 
+/*text for garden of stars!*/
+.pgos {
+    margin-top: -15px;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: -85px;
+}
+
+.h3gos {
+    font-size:  0.9em;
+    margin-top: -10px;
+    position: relative;
+    left: 25px;
+}
