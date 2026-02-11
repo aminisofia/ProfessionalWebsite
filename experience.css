@@ -4,6 +4,20 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+.experience div, .projects div {
+    transition: 1s ease;
+}
+
+.experience div:hover, .projects div:hover {
+    transform: scale(1.02);
+    transition: .5s ease;
+    text-shadow: 2px 2px #bc9bff;
+}
+
+.experience > div > div:hover, .projects > div > div:hover {
+    box-shadow: 1px 1px 5px #a587e0;
+}
+
 .resume img {
     max-width: 130%;
     max-height: 130%;

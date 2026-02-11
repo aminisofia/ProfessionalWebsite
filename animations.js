@@ -1,13 +1,9 @@
-// document.addEventListener('mousemove', function(event) {
-//     var cloud = document.querySelector('.cloud');
-//     var x = event.clientX / window.innerWidth - 0.5;
-//     var y = event.clientY / window.innerHeight - 0.5;
-//     cloud.style.transform = 'rotateY(' + (x * 30) + 'deg) rotateX(' + (-y * 30) + 'deg)';
-// });
-//
-// document.addEventListener('wheel', function(event) {
-//     var cloud = document.querySelector('.cloud');
-//     var scale = parseFloat(cloud.style.transform.match(/scale\(([^)]+)\)/)[1] || 1);
-//     scale += event.deltaY * -0.001;
-//     cloud.style.transform += ' scale(' + scale + ')';
-// });
+// Source - https://stackoverflow.com/a/19800010
+// Posted by Renato Zannon, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-02-10, License - CC BY-SA 3.0
+
+function spin() {
+    var img = document.getElementById("profile");
+    img.setAttribute("class", "rotated-image");
+}
+

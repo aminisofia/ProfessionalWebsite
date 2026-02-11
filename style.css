@@ -19,6 +19,7 @@ body {
     src: url('fonts/chunky.ttf') format('truetype');
 }
 
+
 h1,p,h2 {
     text-align: center;
     color: #000000;
