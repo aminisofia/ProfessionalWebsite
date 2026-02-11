@@ -31,71 +31,24 @@
     align-items: center;
 }
 
-.website-container, .htc-container, .blender-container, .gos {
+.website-container, .htc-container, .blender-container, .gos-container, .blender-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/*text for tabletop*/
-.ptabletop {
-    margin-top: -15px;
+.projects p {
+    margin-top: -10px;
     font-weight: lighter;
     font-size: 15px;
     margin-left: -50px;
+    margin-bottom: 0px;
 }
 
-.h3tabletop {
-    font-size:  0.9em;
-    margin-top: -10px;
-    position: relative;
-    left: -5px;
-    /*font-style: oblique;*/
+.projects h3 {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: -25px;
+
 }
 
-/*text for HTC*/
-.phtc {
-    margin-top: -15px;
-    font-weight: lighter;
-    font-size: 15px;
-    margin-left: -40px;
-}
-
-.h3htc {
-    font-size:  0.9em;
-    margin-top: -10px;
-    position: relative;
-    left: -2px;
-    /*font-style: oblique;*/
-}
-
-/*text for Blender Projects!*/
-.pblend {
-    margin-top: -15px;
-    font-weight: lighter;
-    font-size: 15px;
-    margin-left: -65px;
-}
-
-.h3blend {
-    font-size:  0.9em;
-    margin-top: -10px;
-    position: relative;
-    left: -85px;
-    /*font-style: oblique;*/
-}
-
-/*text for garden of stars!*/
-.pgos {
-    margin-top: -15px;
-    font-weight: lighter;
-    font-size: 15px;
-    margin-left: -85px;
-}
-
-.h3gos {
-    font-size:  0.9em;
-    margin-top: -10px;
-    position: relative;
-    left: 25px;
-}

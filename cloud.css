@@ -1,38 +1,24 @@
-/* Container for the cloud and text */
 .cloud-container {
-    position: relative; /* Creates a stacking context */
-    perspective: 1000px; /* Enables 3D effects */
+    position: relative;
+    perspective: 1000px;
+    /*??*/
 }
 
-/* Cloud styling */
 .cloud {
-    position: absolute; /* Allows independent positioning */
-    top: 80%; /* Adjust vertical alignment */
-    left: 50%; /* Adjust horizontal alignment */
-    transform: translate(-50%, -50%) translateZ(0); /* Centers the cloud */
-    z-index: -1; /* Places the cloud behind all other elements */
-    width: 400px; /* Adjust size for better visibility */
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateZ(0);
+    z-index: -1;
+    width: 400px;
     height: 300px;
-    background: url('img/cloud.png') no-repeat center center; /* Replace with your cloud image path */
+    background: url('img/cloud.png') no-repeat center center;
     background-size: cover;
-    animation: float 6s ease-in-out infinite; /* Adds floating animation */
+    animation: float 6s ease-in-out infinite;
 }
 
-/* Floating animation for the cloud */
 @keyframes float {
     0%, 100% { transform: translate(-50%, -50%) translateZ(0) translateY(0); }
     50% { transform: translate(-50%, -50%) translateZ(0) translateY(-10px); }
 }
 
-/* Ensure headers and other text are above the cloud */
-h1, h2, h3, p, .social-icons {
-    position: relative; /* Ensures these elements are above the cloud */
-    z-index: 1; /* Higher stacking order than the cloud */
-}
-
-/* Optional: Additional styling for social icons if needed */
-.social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}

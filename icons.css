@@ -2,16 +2,17 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 20px;
 }
 
 .linkedIn, .github, .instagram, .email {
     width: 20px;
     height: 20px;
     transition: 1s ease;
-}
+    filter: brightness(0) saturate(100%) invert(3%) sepia(97%) saturate(7428%) hue-rotate(267deg) brightness(98%) contrast(104%);}
 
 .icons div:hover {
-    filter: brightness(0) saturate(100%) invert(9%) sepia(87%) saturate(7456%) hue-rotate(276deg) brightness(72%) contrast(110%);
+    filter: brightness(0) saturate(100%) invert(22%) sepia(37%) saturate(5545%) hue-rotate(264deg) brightness(75%) contrast(131%);
     transform: scale(1.3);
     transition: 1s ease;
 }

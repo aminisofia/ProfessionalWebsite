@@ -11,7 +11,6 @@
 .experience div:hover, .projects div:hover {
     transform: scale(1.02);
     transition: .5s ease;
-    text-shadow: 2px 2px #bc9bff;
 }
 
 .experience > div > div:hover, .projects > div > div:hover {

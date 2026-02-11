@@ -19,31 +19,52 @@ body {
     src: url('fonts/chunky.ttf') format('truetype');
 }
 
-
-h1,p,h2 {
-    text-align: center;
-    color: #000000;
-    font-family: "chunky";
+@font-face {
+    font-family: 'header';
+    src: url('fonts/Lobster-Regular.ttf') format('truetype');
 }
 
-h1 {
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 1.1;
-    margin-bottom: 0;
-    margin-top: 120px;
+@font-face {
+    font-family: 'paragraph';
+    src: url('fonts/Lato-Italic.ttf') format('truetype');
 }
 
 p {
+    text-align: center;
+    color: #1a0046;
+    font-family: "chunky";
     font-size: 20px;
     line-height: 1;
     margin-top: 10px;
     font-style: italic;
 }
 
+h1 {
+    font-family: 'header';
+    color: #1a0046;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 0;
+    margin-top: 120px;
+    text-align: center;
+}
+
 h2 {
-    font-size: 20px;
     margin-top: 80px;
+    font-family: 'header';
+    color: #1a0046;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: 'paragraph';
+    color: #1a0046;
 }
 
 
