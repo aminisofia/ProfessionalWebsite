@@ -5,7 +5,7 @@
     margin-bottom: 150px;
 }
 
-.website, .box, .resume, .tabletop, .htc, .blender, .gos{
+.website, .box, .resume, .tabletop, .htc, .blender, .gos, .cse{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,13 +17,25 @@
     border: 1px dashed rgba(0, 0, 0, 0.42);
 }
 
-.website img, .htc img, .blender img, .gos img {
+.website img, .htc img, .blender img, .gos img, .cse img {
     max-width: 130%;
     max-height: 130%;
     object-fit: cover;
 }
 
-.website a, .htc a , .blender a, .gos a{
+.cse img {
+    margin-right: 20px;
+}
+
+.gos img {
+    margin-right: -10px;
+}
+
+.htc img {
+    margin-right: -25px;
+}
+
+.website a, .htc a , .blender a, .gos a, .cse a{
     display: flex;
     width: 100%;
     height: 100%;
@@ -31,7 +43,7 @@
     align-items: center;
 }
 
-.website-container, .htc-container, .blender-container, .gos-container, .blender-container {
+.website-container, .htc-container, .blender-container, .gos-container, .blender-container, .cse-container {
     display: flex;
     flex-direction: column;
     align-items: center;
