@@ -1,4 +1,3 @@
-/* Default styles for PC */
 body {
     display: flex;
     background-color: #eee6fc;
@@ -9,14 +8,14 @@ body {
 }
 
 .first {
-    display: flex; /* Use flexbox to align items in a row */
-    justify-content: space-between; /* Add spacing between items */
-    align-items: center; /* Vertically align items */
-    width: 100%; /* Ensure the container takes full width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .header, .text-intro {
-    flex: 1; /* Allow both elements to take equal space */
+    flex: 1;
 }
 
 .header img {
@@ -57,7 +56,6 @@ p {
     font-style: italic;
 }
 
-/* Hyperlink customization */
 a {
     text-decoration: underline;
     background-image: linear-gradient(to right, #0051ff, #862ee5);
@@ -90,20 +88,20 @@ a:hover {
 }
 
 .second {
-    display: flex; /* Use flexbox to align items in a row */
-    justify-content: space-between; /* Add spacing between items */
-    align-items: center; /* Vertically align items */
-    width: 100%; /* Ensure the container takes full width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .house, .text-house {
-    flex: 1; /* Allow both elements to take equal space */
+    flex: 1;
 }
 
 .house img {
     margin-top: 50px;
-    width: 540px; /* Retain original width */
-    height: 540px; /* Retain original height */
+    width: 540px;
+    height: 540px;
     margin-bottom: 20px;
     margin-left: 300px;
 
@@ -123,7 +121,7 @@ a:hover {
 }
 
 
-/* Add responsive styles for mobile devices */
+/*for mobile*/
 @media screen and (max-width: 768px) {
     body {
         margin: 2vw;
@@ -131,34 +129,34 @@ a:hover {
     }
 
     .first, .second {
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center align items */
+        flex-direction: column;
+        align-items: center;
     }
 
     .header img {
-        width: 100%; /* Make the image responsive */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%;
+        height: auto;
         margin-left: 0;
     }
 
     .header h3 {
         margin-left: 0;
-        text-align: center; /* Center align text */
+        text-align: center;
     }
 
     .text-intro, .text-house {
         margin-left: 0;
         margin-top: 20px;
-        text-align: center; /* Center align text */
+        text-align: center;
     }
 
     h3, h2, p {
-        font-size: 14px; /* Adjust font size for smaller screens */
+        font-size: 14px;
     }
 
     .donutVid video {
-        width: 100%; /* Make the video responsive */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%;
+        height: auto;
         margin-left: 0;
     }
 
@@ -168,8 +166,8 @@ a:hover {
     }
 
     .house img {
-        width: 100%; /* Make the image responsive */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%;
+        height: auto;
         margin-left: 0;
     }
 
