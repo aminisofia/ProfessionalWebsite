@@ -5,14 +5,14 @@
 
 .cloud {
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%) translateZ(0);
     z-index: -1;
     width: 400px;
     height: 300px;
     background: url('img/cloud.png') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     animation: float 6s ease-in-out infinite;
 }
 

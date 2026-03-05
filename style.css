@@ -5,10 +5,10 @@ body {
     margin: 0;
     background: linear-gradient(
             to bottom,
-            white 0%,
-            #ffefef 10%,
-            #eee6fc 40%,
-            #eee6fc 100%
+            #fff5f5 0%,
+            #fde0e0 10%,
+            #e4d6fc 40%,
+            #d1bdf6 100%
     );
 }
 

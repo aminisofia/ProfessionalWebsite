@@ -17,10 +17,18 @@
     border: 1px dashed rgba(0, 0, 0, 0.42);
 }
 
-.website img, .htc img, .blender img, .gos img, .cse img {
+.htc img, .blender img, .gos img, .cse img {
     max-width: 130%;
     max-height: 130%;
     object-fit: cover;
+}
+
+.website img{
+    max-width: 140%;
+    max-height: 140%;
+    object-fit: cover;
+    margin-right: -2px;
+
 }
 
 .cse img {
