@@ -30,7 +30,14 @@
     position: relative;
 }
 
-.resume a {
+.gda img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+
+.tabletop a, .resume a, .gda a {
     display: flex;
     width: 100%;
     height: 100%;
@@ -38,15 +45,7 @@
     align-items: center;
 }
 
-.tabletop a {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-.resume-container, .tabletop-container {
+.resume-container, .tabletop-container, .gda-container {
     display: flex;
     flex-direction: column;
     align-items: center;

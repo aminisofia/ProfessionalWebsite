@@ -27,8 +27,6 @@
     margin: 0.50em 0;
 }
 
-
-
 .rotated-image {
     rotate: 360deg;
     transition: 1s ease;
