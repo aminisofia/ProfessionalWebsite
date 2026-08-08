@@ -1,16 +1,14 @@
 body {
     background-repeat: no-repeat;
-    background-color: rgba(239, 226, 251, 0.6);
+    background-color: rgba(239, 226, 251, 0.67);
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
 }
-
 :root {
     --textbox: #D59CD870;
 }
-
 
 @font-face {
     font-family: 'header';
@@ -25,13 +23,19 @@ body {
 .bar {
     display: inline-flex;
     gap: 5%;
-    width: 95%;
+    width: 100%;
     position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: rgba(245, 238, 253, 0.75);
+    padding-bottom: .1vw;
 }
 .icons {
     display: inline-flex;
     width: 95%;
     gap: 1%;
+    padding-left: 3vw;
+    align-items: center;
 }
 .icons img {
     justify-content: left;
@@ -39,7 +43,7 @@ body {
     width: 40px;
     margin-top: 10px;
 }
-.icons img:hover, .menu h3:hover{
+.icons img:hover, .menu h3:hover, .GDAButton img:hover, .resumeButton:hover {
     position: relative;
     scale: 105%;
     cursor: pointer;
@@ -50,8 +54,10 @@ body {
 .menu {
     display: inline-flex;
     justify-content: right;
+    align-items: center;
     width: 95%;
     gap: 3%;
+    padding-right: 3vw;
 }
 
 /*about me*/
@@ -67,6 +73,39 @@ body {
     border-radius: 50px;
     margin-left: 3%;
 }
+.aboutmeButtons {
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    width: 96%;
+}
+.aboutmeButtons h2 {
+    text-align: left;
+    padding-right: 16%;
+}
+.resumeButton{
+    display: flex;
+    flex-direction: row;
+    background-color: #f5eefd;
+    padding: 0 .5vw;
+    border-radius: 10px;
+}
+/*RESUME ICON*/
+.resumeButton img{
+    justify-content: right;
+    height: 5vw;
+    width: 5vw;
+}
+/*GDA ICON*/
+.GDAButton img{
+    justify-content: right;
+    height: 3vw;
+    width: 10vw;
+    border-radius: 0;
+    margin-top: 10%;
+}
+
 
 .last {
     margin-left: 15%;
