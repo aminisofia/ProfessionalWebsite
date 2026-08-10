@@ -39,8 +39,8 @@ body {
 }
 .icons img {
     justify-content: left;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     margin-top: 10px;
 }
 .icons img:hover, .menu h3:hover, .GDAButton img:hover, .resumeButton:hover {
@@ -56,8 +56,11 @@ body {
     justify-content: right;
     align-items: center;
     width: 95%;
-    gap: 3%;
+    gap: 4%;
     padding-right: 3vw;
+}
+.menu h3 {
+    font-size: 2vw;
 }
 
 /*about me*/
@@ -110,7 +113,6 @@ body {
 .last {
     margin-left: 15%;
 }
-
 .textbox {
     margin-top: 5%;
     margin-left: 5%;
@@ -141,6 +143,13 @@ h2 {
     margin: -.03%;
 }
 h3 {
+    font-family: 'paragraph';
+    font-style: normal;
+    color: #5e4f5d;
+    font-weight: lighter;
+    font-size: 1.5vw;
+}
+p {
     font-family: 'paragraph';
     font-style: normal;
     color: #5e4f5d;

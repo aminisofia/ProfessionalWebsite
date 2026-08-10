@@ -5,15 +5,24 @@
     <title>Sofia Aminifard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="steam.css">
+    <link rel="stylesheet" href="scrapbook.css">
     <link rel="icon" type="image/x-icon" href="Pics/comfytownColor.png">
 </head>
 <body>
     <div class = "bar">
         <div class = "icons">
-            <img src="Pics/icons/linkedin.png" alt = "linkedin icon">
-            <img src="Pics/icons/itch.png" alt = "itch.io icon">
-            <img src="Pics/icons/github.png" alt = "github icon">
-            <img src="Pics/icons/mail.png" alt = "email icon">
+            <a href="mailto:sofiaminifard@gmail.com">
+                <img src="Pics/Icons/mail.png" alt = "email icon">
+            </a>
+            <a href="https://www.linkedin.com/in/sofia-aminifard" target="_blank" rel="noopener noreferrer">
+                <img src="Pics/Icons/linkedin.png" alt = "linkedin icon">
+            </a>
+            <a href = "https://aminisofia.itch.io/" target="_blank" rel="noopener noreferrer">
+                <img src="Pics/Icons/itch.png" alt = "itch.io icon">
+            </a>
+            <a href="https://github.com/aminisofia" target="_blank" rel="noopener noreferrer">
+                <img src="Pics/Icons/github.png" alt = "github icon">
+            </a>
         </div>
         <div class = "menu">
             <h3>about me</h3>
@@ -34,34 +43,70 @@
                     <div class = "aboutmeButtons">
                         <h2>about me!</h2>
                         <div class = "resumeButton">
-                            <img src="Pics/icons/scroll-solid.png" alt = "resume icon">
+                            <img src="Pics/Icons/scroll-solid.png" alt = "resume icon">
                             <h3>Resume</h3>
                         </div>
                         <div class = "GDAButton">
-                            <img src="Pics/icons/icon-GDA.png" alt = "GDA icon">
+                            <a href="https://gdacollab.com" target="_blank" rel="noopener noreferrer">
+                                <img src="Pics/Icons/icon-GDA.png" alt = "GDA icon">
+                            </a>
                         </div>
                     </div>
-                <h3>
+                <p>
                     Hello! I'm Sofie, a video game producer who is currently finishing up her B.S. in Computer Science: Video Game Design at UC: Santa Cruz!
                     <br><br>
                     I am extremely passionate about facilitating clear cross-functional communication and creating organized pipelines that make development feel like everything can be completed with ease- despite whatever troubles that may come up. All while creating experiences that feel functionally intuitive, immersive, and artistically inspirational for players. I take pride in my big-picture thinking, strong sense of creative vision, and eagerness to get things done.
                     <br><br>
                     On the side, you can find me modifying and reshelling retro handhelds, dabbling in photography, and painting on my iPad while cuddled up with my cats. :)
-                </h3>
+                </p>
             </div>
         </div>
     </div>
 
     <div class = "steamGame">
+        <h2>★current project: stardozing★</h2>
         <div class = "steamText">
-            <h2>★current project: stardozing★</h2>
-            <h3>
+            <p>
                 Stardozing is a multiplayer "friend-slop" game about cave-diving with your friends. The game has fun physics interactions and features unique customization based on your steam-id.
                 <br><br>
                 For this project I handled all the creative direction, production, 2D art, and social media. I'm so proud of my work on stardozing and it's meant so much to me seeing how the art and aesthetics resonate with others.
-            </h3>
+            </p>
+            <iframe src="https://store.steampowered.com/widget/4740270/" frameborder="0" width="80%" height="100%"></iframe>
         </div>
     </div>
 
+    <div class = "flipbook">
+        <div class = "hard">
+            <div class = "tommy">
+                <img src="Pics/tommy.png" alt="Sofie's cat Tommy!">
+            </div>
+            <h1>my other projects!</h1>
+        </div>
+        <div class = "gardenofstars">
+            <img src="Pics/GardenOfStars/logo.png" alt = "gardenofstars icon" draggable="false">
+            <h2>UniJam 2025 Winner!</h2>
+            <div class = "gardenofstarsContent">
+                <p>Three day game jam amongst other university students!
+                    <br></br>
+                    For this jam I did the creative direction, production, level design in Tiled, and some assets using Aseprite. This project was really fun and I got to work in-person with two of my close friends who have never done game development before. Being able to show them the world of game jams and seeing their confidence grow over the three days made me so happy!
+                    <br></br>
+                    I am particularly proud of how everything came together aesthetically, especially under such a short time frame!</p>
+                <div class = "gardenofstarsScreenshots">
+                    <img src="Pics/GardenOfStars/screenshot1.png" alt = "gardenofstars screenshot" draggable="false">
+                    <img src="Pics/GardenOfStars/screenshot2.png" alt = "another gardenofstars screenshot" draggable="false">
+                </div>
+            </div>
+        </div>
+        <div></div>
+        <div></div>
+        <div class = "hard"></div>
+    </div>
+
+
+    <script src="jquery.js"></script>
+    <script src="turn.js"></script>
+    <script>
+        $(".flipbook").turn();
+    </script>
 </body>
 </html>
