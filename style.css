@@ -1,10 +1,23 @@
 body {
-    background-repeat: no-repeat;
-    background-color: rgba(239, 226, 251, 0.67);
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    background-color: rgba(239, 226, 251, 0.67);
+
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("Pics/point-wave-noise-texture.png");
+    background-repeat: repeat;
+    opacity: 0.02 !important;
+    mix-blend-mode: overlay;
+    /*-webkit-transform: translateZ(-999px) scale(2);*/
+    /*transform: translateZ(-999px) scale(2);*/
+    z-index: -1 !important;
 }
 :root {
     --textbox: #D59CD870;
@@ -27,7 +40,7 @@ body {
 .bar {
     display: inline-flex;
     gap: 5%;
-    width: 100%;
+    width: 101%;
     position: sticky;
     z-index: 1000;
     top: 0;
