@@ -18,6 +18,10 @@ body {
     font-family: 'paragraph';
     src: url('Fonts/Lato-Italic.ttf') format('truetype')
 }
+@font-face {
+    font-family: 'scrapbook';
+    src: url('Fonts/Cookiemonster-gv11.ttf') format('truetype')
+}
 
 /*sticky bar*/
 .bar {

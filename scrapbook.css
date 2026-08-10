@@ -4,11 +4,28 @@
 .even{
     border-radius: 5% 2% 2% 5%;
 }
-.flipbook {
-    width: 90%;
-    height: 40vw;
-    align-content: center;
-    padding-bottom: 10vw;
+
+.star1 {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    rotate: 280deg;
+    top: 4vw;
+    margin-left: 42%;
+}
+.star1 img{
+    width: 5vw;
+}
+.star2 {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    rotate: 0;
+    bottom: 13.5vw;
+    margin-right: 37%;
+}
+.star2 img{
+    width: 8vw;
 }
 
 .tommy{
@@ -19,7 +36,7 @@
     width: 55%;
     display: grid;
     border-radius: 11%;
-    border: 4px #f2eafa dashed;
+    border: .3vw rgb(234, 224, 206) dashed;
 }
 .tommy img{
     display: block;
@@ -29,7 +46,6 @@
     grid-column: 1;
     grid-row: 1;
 }
-
 .tommy::after{
     /*box-shadow: inset 5px 5px 5px 1px rgba(0, 0, 0, 0.5);*/
     box-shadow: inset 0 0 10px 10px rgba(16, 5, 37, 0.54);
@@ -42,6 +58,12 @@
     grid-row: 1;
 }
 
+.flipbook {
+    width: 90%;
+    height: 40vw;
+    align-content: center;
+    padding-bottom: 10vw;
+}
 .flipbook .hard {
     background: #8e9dd4 !important;
     height: 40vw;
@@ -56,11 +78,9 @@
     height: 100%;
 
     /* Syntax: inset | h-offset | v-offset | blur | spread | color */
-    box-shadow: inset 0 0 20px 5px rgb(101, 102, 194);
+    box-shadow: inset 0 0 20px 5px rgb(77, 78, 157);
     border-radius: 1% 4% 4% 1%;
 }
-
-
 .flipbook .page {
     background: #ffffff;
     height: 48vw;
@@ -73,10 +93,16 @@
     /*border-radius: 2% 5% 5% 2%;*/
 }
 .flipbook h1 {
-    font-size: 5vw;
-    color: #ffffff;
-    -webkit-text-stroke: 1px #2c2828;
-    margin-right: 10%;
+    font-family: "scrapbook";
+    font-size: 4vw;
+    color: #52457a;
+    /*-webkit-text-stroke: 1px rgba(0, 0, 0, 0.55);*/
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    border: #5b619a solid 1px;
+    padding: 3%;
+    margin-top: 5%;
+    box-shadow: inset 0 0 10px 10px rgb(173, 182, 213);
 }
 .page h2 {
     font-size: 2vw;
@@ -84,17 +110,18 @@
     margin-top: -8%;
     margin-bottom: 2%;
 }
+
+
 .gardenofstars p {
     text-align: left;
     font-weight: bold;
     font-size: 1.1vw;
     color: #92b9ac;
     background-color: rgba(12, 8, 23, 0.64);
-    padding: .2vw;
+    padding: .5vw;
     border-radius: .3vw;
     margin-top: 1vw;
 }
-
 .gardenofstars {
     background-image: url("Pics/GardenOfStars/bg.jpg") !important;
     background-size: 350px 350px !important;
@@ -113,6 +140,14 @@
     width: 40vw;
     margin-top: -3%;
 }
+.gardenofstars img:hover {
+    position: relative;
+    scale: 102%;
+    cursor: pointer;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+}
 .gardenofstarsScreenshots {
     display: grid;
     grid-template-rows: repeat(2,1fr);
@@ -120,4 +155,9 @@
 }
 .gardenofstarsScreenshots img {
     width: 100%;
+}
+.gardenofstarsScreenshots img:hover {
+    scale: 100%;
+    cursor: auto;
+
 }
