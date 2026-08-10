@@ -120,7 +120,12 @@
     margin-bottom: 2%;
 }
 
-
+.label {
+    display: block;
+    position: absolute;
+    bottom: -83vw;
+    left: 15vw;
+}
 .gardenofstars p {
     text-align: left;
     font-weight: bold;
@@ -146,12 +151,15 @@
 }
 /*GOS logo*/
 .gardenofstars img {
-    width: 40vw;
+    width: 35vw;
     margin-top: -3%;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
 }
 .gardenofstars img:hover {
     position: relative;
-    scale: 102%;
+    scale: 95%;
     cursor: pointer;
     -webkit-transition-property: all;
     -webkit-transition-duration: 0.3s;
