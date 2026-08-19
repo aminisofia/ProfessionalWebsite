@@ -15,8 +15,6 @@ body::before {
     background-repeat: repeat;
     opacity: 0.02 !important;
     mix-blend-mode: overlay;
-    /*-webkit-transform: translateZ(-999px) scale(2);*/
-    /*transform: translateZ(-999px) scale(2);*/
     z-index: -1 !important;
 }
 :root {
@@ -85,6 +83,7 @@ body::before {
     margin-top: 5%;
     width: 100%;
     display: flex;
+    margin-bottom: 5%;
 }
 .aboutme img{
     aspect-ratio: 2/3;
@@ -102,7 +101,7 @@ body::before {
 }
 .aboutmeButtons h2 {
     text-align: left;
-    padding-right: 16%;
+    padding-right: 13%;
 }
 .resumeButton{
     display: flex;

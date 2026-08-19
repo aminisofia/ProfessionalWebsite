@@ -1,21 +1,45 @@
 .steamGame {
     width: 101%;
     height: 30vw;
-    background-color: var(--textbox);
-    margin-top: 8%;
+    background-image: url("Pics/Stardozing/bg2.jpg");
+    background-color: rgba(255, 255, 255, 0.68);
+    background-blend-mode: lighten;
+    margin-top: 10%;
     margin-bottom: 10%;
+}
+
+.steam {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.steamTitle {
+    margin-top: -9%;
+    margin-bottom: -4%;
+}
+
+.steamTitle p {
+    margin-bottom: -1%;
+    /*color: #201339;*/
+}
+.steamGame img {
+    width: 50%;
+    z-index: 10;
 }
 
 .steamText{
     width: 100%;
     display: grid;
-    padding-top: 3%;
+    padding-top: 0;
     grid-template-columns: repeat(2,1fr);
 }
 
-.steamText > p {
+.steamText p {
     text-align: left;
     margin-left: 8%;
+    color: #201339;
+    font-size: 1.8vw;
+    text-weight: bold;
 }
 
 .steamGame iframe {

@@ -59,12 +59,15 @@
     grid-row: 1;
     z-index: 2;
 }
-
+.scrapbook {
+    position: relative;
+    flex-direction: row;
+}
 .flipbook {
     width: 90%;
     height: 40vw;
-    align-content: center;
     padding-bottom: 10vw;
+    align-self: center;
 }
 .flipbook .hard {
     background: #8e9dd4 !important;
@@ -121,10 +124,11 @@
 }
 
 .label {
-    display: block;
+    display: flex;
     position: absolute;
-    bottom: -83vw;
-    left: 15vw;
+    bottom: 60%;
+    left: 10vw;
+    z-index: 0;
 }
 .gardenofstars p {
     text-align: left;

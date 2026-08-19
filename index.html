@@ -6,9 +6,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="steam.css">
     <link rel="stylesheet" href="scrapbook.css">
+    <link rel="stylesheet" href="hobbies.css">
+    <link rel="stylesheet" href="carousel.css">
+
     <link rel="icon" type="image/x-icon" href="Pics/comfytownColor.png">
 </head>
 <body>
+    <script src="jquery.js"></script>
+    <script src="turn.js"></script>
+
     <div class = "bar">
         <div class = "icons">
             <a href="mailto:sofiaminifard@gmail.com">
@@ -64,61 +70,145 @@
     </div>
 
     <div class = "steamGame">
-        <h2>★current project: stardozing★</h2>
-        <div class = "steamText">
-            <p>
-                Stardozing is a multiplayer "friend-slop" game about cave-diving with your friends. The game has fun physics interactions and features unique customization based on your steam-id.
-                <br><br>
-                For this project I handled all the creative direction, production, 2D art, and social media. I'm so proud of my work on stardozing and it's meant so much to me seeing how the art and aesthetics resonate with others.
-            </p>
-            <iframe src="https://store.steampowered.com/widget/4740270/" frameborder="0" width="80%" height="100%"></iframe>
+        <div class = "steamTitle">
+            <p>current project:</p>
+            <img src="Pics/Stardozing/texturedLogo.png" alt="Logo for stardozing.">
+        </div>
+        <div class = "steam">
+            <div class = "steamText">
+                <p>
+                    Stardozing is a multiplayer "friend-slop" game about cave-diving with your friends. The game has fun physics interactions and features unique customization based on your steam-id.
+                    <br><br>
+                    For this project I handled all the Creative Direction, Production, 2D Art, and Social Media. I'm so proud of my work on stardozing, and it's meant so much to me seeing how the art and aesthetics have resonated with others.
+                </p>
+                <!--            <iframe src="https://store.steampowered.com/widget/4740270/" frameborder="0" width="80%" height="100%"></iframe>-->
+                <section class="ab-carousel">
+                    <div class="scroll-start">
+                        <div class="content">
+                            <h2>now on steam!</h2>
+                            <!--                        <p>:D</p>-->
+                                                    <p><a href="https://store.steampowered.com/app/4740270/stardozing/">wishlist now!</a></p>
+                        </div>
+                        <div class="img">
+                            <img src="Pics/Stardozing/screenshotOne.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="content">
+                            <!--                        <h2>Heading 2</h2>-->
+                            <!--                        <p><a href="#">Link</a></p>-->
+                        </div>
+                        <div class="img">
+                            <img src="Pics/Stardozing/screenshotTwo.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="content">
+                            <!--                        <h2>Heading 3</h2>-->
+                            <!--                        <p><a href="#">Link</a></p>-->
+                        </div>
+                        <div class="img">
+                            <img src="Pics/Stardozing/screenshotThree.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="content">
+                            <!--                        <h2>Heading 3</h2>-->
+                            <!--                        <p><a href="#">Link</a></p>-->
+                        </div>
+                        <div class="img">
+                            <img src="Pics/Stardozing/screenshotFour.png" alt="">
+                        </div>
+                    </div>
+
+                </section>
+            </div>
         </div>
     </div>
-    <div class = "label">
-        <h2>flip the book! ➥</h2>
-    </div>
-    <div class = "flipbook">
-        <div class = "hard">
-            <div class = "star1">
-                <img src="Pics/stars.png" alt = "stars!"></img>
-            </div>
-            <div class = "star2">
-                <img src="Pics/stars.png" alt = "stars!"></img>
-            </div>
-            <div class = "tommy">
-                <img src="Pics/tommy.png" alt="Sofie's cat Tommy!">
-            </div>
-            <h1>my other projects!*</h1>
+    <div class = "scrapbook">
+        <div class = "label">
+            <h2>flip the book! ➥</h2>
         </div>
-        <div class = "gardenofstars">
-            <a href="https://aminisofia.itch.io/gardenofstars" target="_blank" rel="noopener noreferrer">
-                <img src="Pics/GardenOfStars/logo.png" alt = "gardenofstars icon" draggable="false">
-            </a>
-            <h2>UniJam 2025 Winner!</h2>
-            <div class = "gardenofstarsContent">
-                <p>Three day game jam amongst other university students!
-                    <br></br>
-                    For this jam I did the creative direction, production, level design in Tiled, and some assets using Aseprite. This project was really fun and I got to work in-person with two of my close friends who have never done game development before. Being able to show them the world of game jams and seeing their confidence grow over the three days made me so happy!
-                    <br></br>
-                    I am particularly proud of how everything came together aesthetically, especially under such a short time frame!</p>
-                <div class = "gardenofstarsScreenshots">
-                    <img src="Pics/GardenOfStars/screenshot1.png" alt = "gardenofstars screenshot" draggable="false">
-                    <img src="Pics/GardenOfStars/screenshot2.png" alt = "another gardenofstars screenshot" draggable="false">
+        <div class = "flipbook">
+            <div class = "hard">
+                <div class = "star1">
+                    <img src="Pics/stars.png" alt = "stars!"></img>
+                </div>
+                <div class = "star2">
+                    <img src="Pics/stars.png" alt = "stars!"></img>
+                </div>
+                <div class = "tommy">
+                    <img src="Pics/tommy.png" alt="Sofie's cat Tommy!">
+                </div>
+                <h1>my other projects!*</h1>
+            </div>
+            <div class = "gardenofstars">
+                <a href="https://aminisofia.itch.io/gardenofstars" target="_blank" rel="noopener noreferrer">
+                    <img src="Pics/GardenOfStars/logo.png" alt = "gardenofstars icon" draggable="false">
+                </a>
+                <h2>UniJam 2025 Winner!</h2>
+                <div class = "gardenofstarsContent">
+                    <p>Three day game jam amongst other university students!
+                        <br></br>
+                        For this jam I did the creative direction, production, level design in Tiled, and some assets using Aseprite. This project was really fun and I got to work in-person with two of my close friends who have never done game development before. Being able to show them the world of game jams and seeing their confidence grow over the three days made me so happy!
+                        <br></br>
+                        I am particularly proud of how everything came together aesthetically, especially under such a short time frame!</p>
+                    <div class = "gardenofstarsScreenshots">
+                        <img src="Pics/GardenOfStars/screenshot1.png" alt = "gardenofstars screenshot" draggable="false">
+                        <img src="Pics/GardenOfStars/screenshot2.png" alt = "another gardenofstars screenshot" draggable="false">
+                    </div>
                 </div>
             </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class = "hard"></div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div class = "hard"></div>
     </div>
 
-
-    <script src="jquery.js"></script>
-    <script src="turn.js"></script>
     <script>
         $(".flipbook").turn();
     </script>
+
+
+    <div class = "hobbies">
+        <h1>★hobbies★</h1>
+        <div class = "columns">
+            <div class = "art">
+                <h2>art</h2>
+                <div class = "arts">
+                    <div class = "art1">
+
+                    </div>
+                    <div class = "art2">
+
+                    </div>
+                </div>
+            </div>
+            <div class = "photography">
+                <h2>photography</h2>
+                <div class = "photos">
+                    <div class = "photo1">
+
+                    </div>
+                    <div class = "photo2">
+
+                    </div>
+                </div>
+            </div>
+            <div class = "console">
+                <h2>consoles</h2>
+                <div class = "consoles">
+                    <div class = "console1">
+
+                    </div>
+                    <div class = "console2">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
