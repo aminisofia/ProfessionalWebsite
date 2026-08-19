@@ -2,10 +2,11 @@
     width: 101%;
     height: 30vw;
     background-image: url("Pics/Stardozing/bg2.jpg");
-    background-color: rgba(255, 255, 255, 0.68);
+    background-color: rgba(208, 181, 232, 0.84);
     background-blend-mode: lighten;
     margin-top: 10%;
     margin-bottom: 10%;
+    box-shadow: 0 0 30px 5px rgba(117, 4, 255, 0.26);
 }
 
 .steam {

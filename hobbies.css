@@ -5,7 +5,10 @@
     align-items: center;
     margin-bottom: 20vw;
     text-align: left;
-    /*grid-template-rows: 3fr 1fr;*/
+    background: rgba(238, 220, 191, 0.16);
+    padding: 10vw;
+    border: 10px dashed rgb(255, 255, 255);
+    border-radius: 5%;
 }
 .hobbies h1 {
     text-align: left;
@@ -15,12 +18,19 @@
 .hobbies h2 {
     text-align: center;
     padding: 0;
-    margin-top: 1vw;
+    margin-top: 5vw;
     margin-bottom: 3vw;
 }
 .hobbies p {
-    text-align: left;
-    margin-left: 1.5vw;
+    background-color: rgb(242, 234, 250);
+    padding: .5vw;
+    border-radius: .3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    height: fit-content;
+    width: 20vw;
+    text-align: center;
+    box-shadow: 0 0 30px 5px rgba(253, 253, 253, 0.52);
 }
 
 .columns {
@@ -28,7 +38,6 @@
     grid-template-columns: .5fr .5fr .5fr;
     gap: 5vw;
     justify-content: center;
-    text-align: left;
 }
 
 .consoles, .photos, .arts {
@@ -37,21 +46,35 @@
     gap: 2vw;
 }
 
-.art1:hover, .art2:hover, .photo1:hover, .photo2:hover, .photo3:hover, .photo4:hover, .photo5:hover, .console1:hover{
+.art1:hover, .art2:hover, .photo1:hover, .photo2:hover, .console1:hover{
     -webkit-transition-property: all;
     -webkit-transition-duration: 0.3s;
     -webkit-transition-timing-function: ease;
     scale: 98%;
 }
 
-.art1, .art2, .photo1, .photo2, .photo3, .photo4, .photo5, .console1 {
+.art1, .art2, .photo1, .photo2, .console1 {
     display: flex;
     flex-direction: row;
-    background-color: #e5c8ea;
+    background-color: rgba(217, 180, 121, 0.44);
+    box-shadow: 0 0 30px 3px rgb(229, 210, 188);
+
     height: 15vw;
     width: 20vw;
     border-radius: 20px;
+    justify-content: center;
     -webkit-transition-property: all;
     -webkit-transition-duration: 0.3s;
     -webkit-transition-timing-function: ease;
+}
+
+.columns img {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10%;
+
+}
+
+.subPhoto1, .subPhoto2, .subPhoto3, .subPhoto4 {
+    display: none;
 }
