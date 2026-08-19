@@ -124,10 +124,10 @@
 }
 
 .label {
-    display: flex;
+    /*display: flex;*/
     position: absolute;
     bottom: 60%;
-    left: 10vw;
+    left: 9vw;
     z-index: 0;
 }
 .gardenofstars p {
