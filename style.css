@@ -6,7 +6,9 @@ body {
     background-color: rgba(239, 226, 251, 0.67);
 
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body::before {
     content: "";
     position: fixed;
@@ -19,6 +21,10 @@ body::before {
 }
 :root {
     --textbox: #D59CD870;
+}
+
+a {
+    text-decoration: none;
 }
 
 @font-face {
@@ -124,6 +130,9 @@ body::before {
     justify-content: right;
     height: 5vw;
     width: 5vw;
+}
+.resumeButton a {
+    display: flex;
 }
 /*GDA ICON*/
 .GDAButton img{
